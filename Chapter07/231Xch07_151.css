@@ -1,0 +1,1 @@
+a:link { 	color: rgb(210,0,0);	text-decoration: none;}a:hover {	text-decoration: underline;} /* a:visited trumps a:hover because of document order priority */a:visited {	color: rgb(175,0,0);	text-decoration: none;} 

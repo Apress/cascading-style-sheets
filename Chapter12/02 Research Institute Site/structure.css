@@ -1,0 +1,13 @@
+@import url(style.css);
+
+#container { border:2px solid black; }
+#head { background:url(label_head.gif) repeat; border:1px solid green; padding-top:2px; padding-right:2px; padding-bottom:2px;  }
+#login { background:url(label_login.gif) repeat; border:1px solid #f80; }
+#intro { background:url(label_intro.gif) repeat; border:1px solid blue; }
+#intro div { border:2px solid red; margin:2px; }
+#tabs { border:2px solid blue; padding:2px; }
+#tabs .infobox { background:url(label_infobox.gif) repeat; border:1px solid purple; }
+#tabs #buttons { border:1px solid #930; }
+#sidebar { background:url(label_sidebar.gif) repeat; border:1px solid #990; }
+#footer { background:url(label_footer.gif) repeat; border:1px solid #099; }
+

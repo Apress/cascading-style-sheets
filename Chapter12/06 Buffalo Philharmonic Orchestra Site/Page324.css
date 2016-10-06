@@ -1,0 +1,38 @@
+<div id="content">
+    </div>
+
+
+#content {
+  position: absolute;
+  top: 0;
+  left: 127px;
+  width: 518px;
+  padding: 0;
+  margin: 0;
+  border: 0;
+  text-align: left;
+  background: #fff;
+}
+
+
+#content {
+  float: left;
+  width: 518px;
+  padding: 0;
+  margin: 0;
+  border: 0;
+  text-align: left;
+  background: #fff;
+}
+
+
+
+#content {
+  float: right;
+  width: 518px;
+  padding: 0;
+  margin: 0;
+  border: 0;
+  text-align: left;
+  background: #fff;
+}

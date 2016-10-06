@@ -1,0 +1,41 @@
+body, div, p {
+  font-family: verdana, arial, helvetica, sans-serif;
+  color: #000;
+}
+body {
+  margin: 0px;
+  padding: 0px;
+  background-color: #ccc;
+}
+p {
+  font-size: 0.7em;
+  line-height: 1.4em;
+}
+#content {
+  padding: 10px;
+  margin-top: 5px;
+  margin-bottom: 0px;
+  margin-right: 5%;
+  margin-left: 5%;
+  background-color: #fff;
+  border: 1px solid #ccc;
+}
+.innerBox {
+  padding: 0px 10px 0px 10px;
+  margin: 0px;
+  border: 1px solid #000;
+}
+#navBar {
+  padding: 0px 10px 0px 10px;
+  margin-top: -10px;
+  margin-bottom: 5px;
+  margin-right: 5%;
+  margin-left: 5%;
+  background-color: #fff;
+  border: 1px solid #ccc;
+  text-align: right;
+}
+.nav {
+  margin-top: 0px;
+  margin-bottom: 5px;
+}

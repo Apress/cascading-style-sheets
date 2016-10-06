@@ -1,0 +1,42 @@
+<div id="scroll">
+    <hr />
+<a href="contact/" title="contact the BPO"><span>Contact the BPO</span></a></div>
+<div id="footer">
+    <hr />
+     text</div>
+
+
+#scroll {
+  clear: both;
+  display: block;
+  width: 518px;
+  height: 58px;
+  padding: 0;
+  margin: 0;
+  border: 0;
+  text-align: right;
+  background: url(/images/hscroll.gif) no-repeat;
+}
+    
+#scroll a {
+  float: right;
+  display: block;
+  width: 117px;
+  height: 58px;
+  padding: 0;
+  margin: 0;
+  border: 0;
+  background: url(/images/hcntct.gif) right bottom no-repeat;
+}
+
+#footer {
+  clear: both;
+  display: block;
+  width: 518px;
+  padding: 0;
+  margin: 0;
+  border: 0;
+  text-align: center;
+  background: #fff;
+}
+

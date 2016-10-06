@@ -1,0 +1,113 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http: //www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http: //www.w3.org/1999/xhtml"xml: lang="en"lang="en">
+<head>
+<title>nn4mix</title>
+<link rel="stylesheet"type="text/css"href="css/nn4mix.css"/>
+<meta http-equiv="content-type"content="text/html;charset=iso-8859-1"/>
+</head>
+<body>
+<div id="content">
+<p>Lorem ipsum dolor sit amet,consectetuer adipiscing elit,sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.</p>
+<div class="innerBox">
+<p>Ut wisi enim ad minim veniam,quis nostrud exercitation ulliam corper suscipit lobortis nisl ut aliquip ex ea commodo consequat.</p>
+</div>
+<p>Duis autem veleum iriure dolor in hendrerit in vulputate velit esse molestie consequat,vel willum lunombro dolore eu feugiat</p>
+</div>
+<div id="navBar">
+<p class=nav>&lt;back |home |next&gt;</p>
+</div>
+</body>
+</html>
+
+
+
+
+body {
+  margin: 0px;
+  padding: 0px;
+  font-family: verdana, arial, helvetica, sans-serif;
+  font-size: 0.7em;
+  line-height: 1.4em;
+  color: #000;
+  background-color: #ccc;
+}
+#content {
+  padding: 10px;
+  margin-top: 5px;
+  margin-bottom: 0px;
+  margin-right: auto;
+  margin-left: auto;
+  background-color: #fff;
+  border: 1px solid #000;
+  width: 90%;
+}
+.innerBox {
+  padding: 0px 10px 0px 10px;
+  margin: 0px;
+  border: 1px solid #000;
+}
+#navBar {
+  padding: 0px 10px 0px 10px;
+  margin-top: 0px;
+  margin-bottom: 5px;
+  margin-right: auto;
+  margin-left: auto;
+  background-color: #fff;
+  border-top: 0px;
+  border-bottom: 1px solid #000;
+  border-left: 1px solid #000;
+  border-right: 1px solid #000;
+  text-align: right;
+  width: 90%;
+}
+.nav {
+  margin-top: 0px;
+  margin-bottom: 5px;
+}
+
+
+
+
+body, div, p {
+  font-family: verdana, arial, helvetica, sans-serif;
+  color: #000;
+}
+body {
+  margin: 0px;
+  padding: 0px;
+  background-color: #ccc;
+}
+p {
+  font-size: 0.7em;
+  line-height: 1.4em;
+}
+#content {
+  padding: 10px;
+  margin-top: 5px;
+  margin-bottom: 0px;
+  margin-right: auto;
+  margin-left: auto;
+  background-color: #fff;
+  border: 1px solid #ccc;
+  width: 90%;
+}
+.innerBox {
+  padding: 0px 10px 0px 10px;
+  margin: 0px;
+  border: 1px solid #000;
+}
+#navBar {
+  padding: 0px 10px 0px 10px;
+  margin-top: 0px;
+  margin-bottom: 5px;
+  margin-right: auto;
+  margin-left: auto;
+  background-color: #fff;
+  border: 1px solid #ccc;
+  text-align: right;
+  width: 90%;
+}
+.nav {
+  margin-top: 0px;
+  margin-bottom: 5px;
+}

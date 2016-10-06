@@ -1,0 +1,161 @@
+body {
+	background: url(images/body-bg.png) repeat-x #ffffff;
+	font-family: Helvetica, Arial, sans-serif;
+	font-size: 11px;
+	}
+	
+a {
+	text-decoration: none;
+	color: #ffffff;
+	}
+		
+/* absolute position boxes for the photographs */
+
+#horzPicBox {
+	position: absolute;
+	top: 20px;
+	left: 20px;
+	background: url(images/horz-bg.png) #000000;
+	height: 350px;
+	width: 460px;
+	z-index: 0;
+	}
+	
+	#horzPicBox img {
+		padding-top: 10px;
+		padding-left: 10px;
+		}
+		
+#vertPicBox {
+	position: absolute;
+	top: 20px;
+	left: 20px;
+	background: url(images/vert-bg.png) #000000;
+	height: 460px;
+	width: 350px;
+	z-index: 0;
+	}
+	
+	#vertPicBox img {
+		padding-top: 10px;
+		padding-left: 10px;
+		}
+
+	
+/* titlebox holds the tile and navigation widgets at the bottom of the page. div widgets floats the widgets to the right in title */	
+		
+#titleBox {
+	position: absolute;
+	background-color: #000000;
+	color: #ffffff;
+	top: 500px;
+	left: 0;
+	width: 500px;
+	height: 36px;
+	z-index: 0;
+	font-weight: bold;
+	}
+	
+	#titleBox .photoInfo {
+		display: block;
+		padding-top: 11px;
+		padding-left: 20px;
+		}
+		
+	#widgets {
+		float: right;
+		padding-top: 11px;
+		padding-right: 20px;
+		}
+		
+	#widgets a {
+		padding-top: 11px;
+		}
+		
+	#widgets a:hover {
+		background: url(images/tab.png) no-repeat top center;
+		}
+		
+/* picInPic is the container for the thumbnails and the dropdown menu */ 
+
+#picInPic {
+	position: absolute;
+	display: none;
+	width: 110px;
+	top: 40px;
+	left: 40px;
+	z-index: 1;
+	}
+
+/* thumbnails is the thumbnails box. the divs that follow give rules for the image thumbnails in the thumbnail div, including the rollover effect */		
+
+#thumbnails {
+	display: block;
+	width: inherit;
+	height: 76px;	
+	overflow: auto;
+	background: url(images/trans.png);
+	border: 1px solid #aaaaaa;
+	}
+	
+	#thumbnails img {
+		display: block;
+		margin-top: 10px;
+		margin-left: 10px;
+		margin-bottom: 10px;
+		border: 4px solid #ffffff;
+		}
+		
+	#thumbnails a img {
+		border: 4px solid #dddddd;
+		}
+		
+	#thumbnails a:hover img {
+		border: 4px solid #ffffff;
+		}
+		
+/* div to hold the category dropdown */		
+		
+#category {
+	font-weight: bold;
+	font-size: 9px;
+	width: 112px;
+	background: url(images/dark-trans.png);
+	}
+	
+	#category a {
+		display: block;
+		padding-left: 10px;
+		background: url(images/drop-down.png) no-repeat center right;
+		border: 1px solid #aaaaaa;
+		padding-top: 6px;
+		padding-bottom: 5px;
+		}
+		
+	#category a:hover {
+		background: url(images/drop-down-over.png) no-repeat center right;
+		}
+		
+/* dropMenu is the drop-down menu for the category titles */
+
+#dropMenu {
+	visibility: hidden;
+	font-weight: bold;
+	font-size: 9px;
+	width: 112px;
+	color: #ffffff;
+	}
+	
+	#dropMenu a {
+		display: block;
+		padding-left: 10px;
+		background: url(images/trans-blue.png);
+		border: 1px solid #aaaaaa;
+		border-top: 0;
+		padding-top: 6px;
+		padding-bottom: 5px;
+		}
+		
+	#dropMenu a:hover {
+		background: url(images/dark-trans.png);
+		}

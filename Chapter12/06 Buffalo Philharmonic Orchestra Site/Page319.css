@@ -1,0 +1,47 @@
+#header {
+  height: 171px; 
+}    
+    
+#header h1 {
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 172px;
+  width: 429px;
+  height: 171px;
+  padding: 0;
+  margin: 0;
+  background: url(/images/ihdbpo.gif) no-repeat;
+
+
+#ja a:link, 
+#ja a:visited,
+#ja a:hover,
+#ja a:active {
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 172px;
+  height: 171px;
+  padding: 0;
+  margin: 0;
+  background: url(/images/hdjf.gif) no-repeat;
+  text-decoration: none;
+}
+
+#mh a:link,
+#mh a:visited,
+#mh a:hover,
+#mh a:active {
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 601px;
+  width: 171px;
+  height: 171px;
+  padding: 0;
+  margin: 0;
+  background: url(/images/hdmh.gif) no-repeat;
+  text-decoration: none;
+}

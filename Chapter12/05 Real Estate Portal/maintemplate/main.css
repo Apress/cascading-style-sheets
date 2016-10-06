@@ -1,0 +1,33 @@
+/* to reset browser-specific settings */
+
+* {
+  margin: 0;
+  padding: 0;
+  border: 0 solid;
+}
+
+/* basic elements */
+body {
+  color: #000;
+  background: #b3bfbc url(img/body.gif);
+  font: 90% Arial, Helvetica, sans-serif;
+  text-align: center; /* this is asking IE to center the container ;) */
+}
+
+a {
+  text-decoration: none;
+}
+
+/* basic divs centering the layout */
+#container { 						
+  width: 51em; 
+  margin: 0 auto; /* to center the box */
+  border-left: 1px solid #b3bfbc; 	
+}
+
+#main {							
+  position: relative;	
+  width: 100%;
+  text-align: left; /* to revoke the body-definition to please IE */
+  border-right: 20px solid #fff;
+}

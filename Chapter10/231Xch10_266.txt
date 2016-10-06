@@ -1,0 +1,44 @@
+body {
+  margin: 0px;
+  padding: 0px;
+  font-family: verdana, arial, helvetica, sans-serif;
+  font-size: 12px;
+  line-height: 22px;
+  color: black;
+  background-color: #ccc;
+}
+#content {
+  padding: 10px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  margin-right: auto;
+  margin-left: auto;
+  background-color: #fff;
+  border: 1px solid #000;
+  width: 70%;
+}
+
+
+
+
+body {
+  margin: 0px;
+  padding: 0px;
+  font-family: verdana, arial, helvetica, sans-serif;
+  font-size: 12px;
+  line-height: 22px;
+  color: black;
+  background-color: #ccc;
+  text-align: center; /*part 1 of 2 centering hack */
+}
+#content {
+  padding: 10px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  margin-right: auto;
+  margin-left: auto;
+  background-color: #fff;
+  border: 1px solid #000;
+  text-align: left; /*part 2 of 2 centering hack */
+  width: 70%;
+}

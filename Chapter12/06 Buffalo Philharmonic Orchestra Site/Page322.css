@@ -1,0 +1,46 @@
+<span>&nbsp;|&nbsp;</span><a id="btn_sched" href="/schedule" title="view the BPO 
+Schedule with Concerts, Dates and Times"><span 
+class="image"></span><span>Schedule</span></a>
+
+
+
+#nav1 a, #nav2 a {
+  display: block;
+  position: relative;
+  width: 98px;
+  height: 92px;
+  padding: 0;
+  margin: 0;
+}
+    
+#nav1 a {
+  padding-left: 15px;
+}
+    
+#nav2 a {
+  padding-left: 14px;
+}
+    
+#nav1 span.image, #nav2 span.image {
+    display: block;
+    position: relative;
+    width: 98px;
+    height: 53px;
+    padding: 0;
+    margin: 0;
+    border: 0;
+    }
+
+#btn_sched {
+  background: transparent url(/images/btn_sched.gif) bottom right no-repeat;
+}
+
+#btn_sched:link span.image,
+#btn_sched:visited span.image {
+  background: transparent url(/images/btn_sched_p.gif) no-repeat;
+}
+    
+#btn_sched:hover span.image,
+#btn_sched:active span.image {
+  background: url(/images/btn_sched_m.gif);
+}

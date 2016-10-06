@@ -1,0 +1,45 @@
+/* the site structure */
+#content {		
+  width: 40em;
+  margin: 0 0 0 11em;
+  color: #000;
+  background: #fff;
+}
+
+#header {						
+  height: 142px;
+  color: #000;
+  background: transparent;
+  text-align: left;
+  margin-bottom: 60px;  
+}
+#text { 							
+  color: #000;
+  background: transparent;
+  padding: 0 10px;
+  margin: 0 10px 0 20px;
+}
+.footer {
+  font-size: 0.80em;
+  padding: 10px 10px 10px 20px;
+  border-top: 1px dashed #6e7d8d;
+  clear: both;
+  margin-top: 5px;
+}
+#info {	
+  float: right;
+  width: 12em;
+  margin: 0 0.2em 0 0.8em;
+  color: #000;
+  background: none;
+  text-align: center;
+}
+#left {		
+  position: absolute;
+  top: 0; 
+  left: 0;
+  width: 11em;
+  color: #000;
+  background: #b3bfbc;
+  padding-top: 200px;
+}

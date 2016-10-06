@@ -1,0 +1,118 @@
+/* adding the background image to body */
+body {
+  color: #000;
+  background: #b3bfbc url(img/body.gif);
+}
+/* adding the background image to div#header (logo) */
+#header {						
+  color: #000;
+  background: transparent url(img/imapa2.gif) 24.5em 0.5em no-repeat;
+}
+#header h2 {
+  font: 1.4em Arial, Helvetica, sans-serif;
+  color: #129;
+  background: none;
+  text-align: left;
+  margin: 0;
+  padding: 53px 0 0 180px;
+}
+/* adding the background image to div#content */
+#content {		
+  color: #000;
+  background: #fff url(img/roland_right.jpg) top left no-repeat;
+}
+#text { 							
+  color: #000;
+  background: transparent;
+  padding: 0 10px;
+  margin: 0 10px 0 20px;
+}
+#text h1 {
+  font-size: 1em;
+  color: #129;
+  background: transparent;
+  margin: 10px 0;
+}
+#text h2, #text h3 {
+  font-size: 1em;
+  color: #129;
+  background: none;
+  padding: 10px 0 0 0;
+}
+#text p {
+  font: 0.82em/160% Verdana, Arial, Helvetica, sans-serif;
+  color: #000;
+  background: none;
+}
+
+/* link icons in the main section */
+#content a {				/* link icon for internal link */
+  color: #000;
+  background: transparent url(img/linkhover.gif) left no-repeat;
+  padding-left: 14px;
+}
+#content a:link, #content a:visited {
+  color: #000;
+  background: transparent url(img/link.gif) left no-repeat;
+}
+#content a:hover, #content a:active {
+  color: #000;
+  background: transparent url(img/linkhover.gif) left no-repeat;
+  text-decoration: underline;
+}
+#content a.top {	/* link to the top of the page */
+  font-size: 0.78em;
+  color: #000;
+  background: transparent url(img/tophover.gif) right no-repeat;
+  padding-right: 16px;
+}
+#content a:link.top, #content a:visited.top {
+  color: #000;
+  background: transparent url(img/top.gif) right no-repeat;
+}
+#content a:hover.top, #content a:active.top {
+  color: #000;
+  background: transparent url(img/tophover.gif) right no-repeat;
+  text-decoration: none;
+}
+/* content div#info */
+#info .infobox {
+  display: block;
+  padding: 5px;
+  color: #000;
+  background: none;
+}
+#info h4 {
+  font-size: 0.86em;
+  border-left: 1px solid #ff8c00;
+  padding: 2px 7px;
+  margin: 0 0 5px 0;
+  text-align: left;
+}
+#info p {
+  color: #000;
+  background: #fff;
+  font-size: 0.80em;
+  line-height: 140%;
+  text-align: left;
+  border-left: 1px dashed #9faba8;
+  border-right: 1px solid #ff8c00;
+  margin: 0;
+  padding: 5px 7px;
+}
+/* adding the background image to div#left */
+#left {		
+  position: absolute;
+  width: 11em;
+  left: 0;
+  top: 0; 
+  color: #000;
+  background: #b3bfbc url(img/roland_left.gif) top right no-repeat;
+  padding-top: 200px;
+}
+/* taking bremen.gif out of the normal document flow */
+#bremen {
+  position: absolute;
+  top: 150px;
+  left: 0;
+}

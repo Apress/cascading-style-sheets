@@ -1,0 +1,110 @@
+/*
+ style definition for mezzoblue.
+ d.shea — dave@shea.net
+
+ gratuitous section marker because I like them: §
+ yes, i'm paying for the bandwidth.
+*/
+
+
+/* Let's get the basics outta the way */
+body { font: 11px verdana, sans-serif; background-color: #87ADDB; margin: 0px; }
+p, div td, .posted, li { font: 11px verdana, sans-serif; line-height: 3ex; text-align: justify; color: #234975; }
+blockquote {color: #335782; font-style: italic; line-height: 3ex;}
+dd { font: 11px verdana, sans-serif; line-height: 3ex; color: #335782; margin-bottom: 1px;}
+
+code, pre { color: #335782; }
+hr { border: none; border-bottom: dotted 1px #6294D1; color: #C6D8F2; background-color: #C6D8F2; width: 60%; margin-left: auto; margin-right: auto;}
+
+h1 { font: 18px 'Lucida Sans Unicode', verdana, sans-serif; font-weight: normal; line-height: 3ex; text-transform: lowercase; color:  #48618B; }
+h2 { font: 16px 'Lucida Sans Unicode', verdana, sans-serif; font-weight: normal; line-height: 3ex; text-transform: lowercase; color: #48618B; }
+h3 { font: 16px 'Lucida Sans Unicode', verdana, sans-serif; font-weight: normal; letter-spacing: -1px; text-transform: lowercase; color: #48618B; /*#5673A7;*/ margin-bottom: 0px; }
+h3 a, h3 a:link, h3 a:visited { font: 16px 'Lucida Sans Unicode', verdana, sans-serif; font-weight: normal; letter-spacing: -1px; text-transform: lowercase; color: #48618B; text-decoration: none; margin-bottom: 0px; }
+h3 a:hover { color: #6697D3; text-decoration: underline;}
+
+h4 { font: 12px 'Lucida Sans Unicode', verdana, sans-serif; font-variant: small-caps; text-align: left; margin-left: 10px; margin-top: 0px; color: #335782; border-bottom: solid 1px #B8CBE7;}
+h6 { font: 10px "Lucida Sans Unicode", verdana, sans-serif; font-weight: normal; color: #E5ECF8; /*#365F91;*/ background-color: #7DA4D4; margin: 0px; margin-top: 8px; padding-left: 4px;}
+
+acronym { border-bottom: none; cursor: help; }
+a, a:link { font-weight: bold; color: #3B7EBB; text-decoration: underline;}
+a:visited { font-weight: normal; color: #405C7F; text-decoration: underline; }
+a:hover { color: #6697D3; text-decoration: underline; }
+
+img { display: inline; margin: 0px; }
+
+
+/* deprecated? */
+input { font: 11px "Lucida Sans Unicode", verdana, sans-serif; padding: 0px; }
+input.faveColour { font: 8px "Lucida Sans Unicode", verdana, sans-serif; }
+
+#bigTable { background-image: url('../images/v3bg1.gif'); background-position: bottom left; background-repeat: repeat-x; background-color: #B6CCF2; }
+#mainContent { background-image: url('../images/v3bg2.jpg');  background-repeat: no-repeat; background-position: top left; background-color: #C6D8F2; padding: 10px 20px 0px 20px; border: solid 1px #A3BBF7; border-top-width: 0px; }
+#mainContent p {margin-left: 15px; }
+#mainContent pre {margin-left: 15px; background-color: #D7E4F6; padding: 5px; padding-left: 10px; border: solid 1px #A7C1E9;}
+
+p.reply a, p.reply a:link, p.reply a:visited { font-weight: normal; text-decoration: none; padding: 1px; border: solid 1px #C6D8F2; }
+p.reply a:hover { color: #fff; background-color: #84B5E3; border-color: #6AA0D3; }
+p.date { font: 10px verdana, sans-serif; font-style: italic; color: #5673A7; padding-top: 0px; padding-left: 0px; margin-top: 0px; margin-left: 10px; }
+.error, .flamebait {text-decoration: line-through;}
+.sidebar {width: 150px; float: left; margin: 15px 15px 15px 0; line-height: 3ex;}
+
+a.reply, a.reply:link, a.reply:visited { text-decoration: none; padding: 1px 6px 1px 6px; border: solid 1px #C6D8F2; font-weight: bold;}
+a.reply:hover { color: #fff; background-color: #84B5E3; border-color: #6AA0D3; }
+
+#rhs { color: #5F879D; padding-top: 15px; padding-left: 10px; padding-right: 0px; }
+#rhs a, #rhs a:link { font: 9px "Lucida Sans Unicode", verdana, sans-serif; font-weight: normal; text-decoration: none; color: #4F7CB3; display: block; }
+#rhs a:visited { color: #7DA4D4; }
+#rhs a:hover, #rhs a:active { text-decoration: underline; color: #1F6ECE;}
+
+.rhsMine a { margin-bottom: 4px; }
+#rhs td.rhsMine h6 { position: relative; left: -10px; }
+.rhsOthers { padding: 5px; padding-top: 0px;}
+
+a#mainPhoto:link , a#mainPhoto:visited { background-color: #C7D8F5; padding: 4px; padding-bottom: 10px; border: solid 1px #ADC5F0; display: block; margin: 2px; }
+a#mainPhoto:hover { background-color: #fff; border: solid 1px #ADC5F0; }
+#photoHolder { text-align: center; background-color: #DBE6F7; padding-top: 10px; padding-bottom: 10px; border: solid 1px #BFD3F0; margin-top: 20px; margin-left: auto; margin-right: auto; }
+#sendmail input, #blog textarea, #sendmail input, #sendmail textarea { font: 11px "Lucida Sans Unicode", verdana, sans-serif; padding: 1px; }
+
+a.thumb, a.thumb:link {font-weight: normal; text-align: center; text-decoration: none; font: 9px/11px verdana, sans-serif; letter-spacing: -1px; color: #234975; background-color: #D2E2F9; border: solid 1px #D2E2F9; border-right: solid 1px #B6D0F5; border-bottom: solid 1px #B6D0F5; padding: 7px; margin: 5px; margin-left: 10px; margin-right: 10px; width: 110px;}
+a.thumb:hover {background-color: #B5CBEB; border-color: #E2EBF8;}
+a.thumb img {display: block; margin: 0px; border: solid 1px #D2E2F9; margin-left: auto; margin-right: auto;}
+a.thumb:hover img {border: solid 1px #C6D8F2;}
+.fl {float: left;}
+.fr {float: right;}
+
+
+#buttons { text-align: right; }
+#buttons a:link, #buttons a:visited { font-family: bold 10px verdana, sans-serif; text-decoration: none; color: white; background-color: #8BADD9; border: solid 1px #ACC4E4; border-right: solid 1px #7AA1D4; border-bottom: solid 1px #7AA1D4; padding: 0px 3px 0px 3px; margin: 0px; }
+#buttons a:hover { color: white; background-color: #618CC8; border: solid 1px #8BABD9; border-right: solid 1px #4C7DC1; border-bottom: solid 1px #4C7DC1; }
+
+#footer { font: 10px verdana, sans-serif; color: #2E3B3E; }
+#footer a, #footer a:link { font: 9px "Lucida Sans Unicode", verdana, sans-serif; font-weight: normal; text-decoration: none; color: #BECFDF; padding-left: 5px; padding-right: 5px; }
+#footer a:hover, #footer a:active { text-decoration: none; color: #fff; background-color: #81AADB; }
+
+
+/* MT Specific */
+.calendar { float: left; }
+.calendar th { font: 9px "Lucida Sans Unicode", verdana, sans-serif; text-align: center; color: #C6D8F2; background-color: #9AB7E6; padding-left: 3px; padding-right: 3px; }
+.calendar td { font: 9px "Lucida Sans Unicode", verdana, sans-serif; text-align: center; color: #9AB7E6; }
+.calendar td a:link, .calendar td a:visited { text-decoration: none; color: #fff; background-color: #6F91C8; display: block; }
+.calendar td a:visited { background-color: #5F7DAF; }
+.calendar td a:hover, .calendar td a:active { background-color: #90ADDC; }
+
+.side { padding-top: 10px; padding-right: 10px; float: right; width: 140px; margin-left: 20px;}
+.side a {text-decoration: none; font-weight: normal; display: block; margin: 0 0 4px 0; padding: 2px; border: solid 1px #C6D8F2;}
+.side a:hover {color: #20619D; background-color: #BCD1F0; border-color: #DEE8F8;}
+#container { padding-top: 15px; }
+
+.comments-body { background-color: #B9CEEE; padding: 0px; border-left: solid 1px #AFC7EC; border-bottom: solid 1px #AFC7EC; margin-top: 12px; }
+.comments-body form { padding-left: 20px; }
+.comments-body h2 { margin-top: 0px; padding-left: 10px;}
+.comments-body p { margin: 10px; padding-left: 10px; padding-right: 10px;}
+.comments-body .replynumber { float: right; display: inline; font: bold 12px verdana, sans-serif; letter-spacing: -1px; color: #AAC2E9; background: #C6D8F2 url(/images/comment-bg.gif) bottom left no-repeat; margin-left: 10px; padding-bottom: 5px; padding-left: 5px;}
+
+
+/* rhs link list specific */
+#rhs .outbound { padding-right: 10px; }
+#rhs .outbound h2 { font: 9px  'Lucida Sans Unicode', 'Lucida Grande', verdana, sans-serif; display: inline; color: #48618B; float: left; padding-right: 5px; margin: 0px; margin-top: 3px;}
+#rhs .outbound a:link, #rhs .outbound a:visited { font-size: 9px; line-height: 9px; text-align: left; display: block; padding-left: 5px; margin: 0px; margin-bottom: 5px; margin-top: 3px; clear: left;}
+#rhs .outbound a.comment:link, #rhs .outbound a.comment:visited { padding: 0px; margin: 0px; padding-top: 4px; margin-top: 3px; display: inline; clear: none;}
+#rhs .outbound a:hover {text-decoration: none;}

@@ -1,0 +1,47 @@
+#left h1 {
+  font-size: 1em;
+  color: #129;
+  background: none;
+  margin: 15px 0 22px 2px;
+  padding: 2px 2px 2px 4px;
+  border-left: 2px solid #ff8c00;
+}
+#left ul {
+  list-style: none outside;
+}
+
+#left .headernav {
+  padding: .5em 0 .25em 0;
+  width: 10em;
+  color: #000;
+  background: transparent;
+  text-align: left;
+  text-indent: 6px;
+}
+.immonav a {
+  font-size: 0.82em;
+  display: block;
+  width: 11.7em;
+  padding: 2px 2px 2px 1.4em;
+  text-align: left;
+  text-indent: 0;
+  color: #000;
+  background: #129;
+}
+.immonav a:link, .immonav a:visited {
+  color: #000;
+  background: #DBE7E4 url(img/navlink.gif) left no-repeat;
+  border-left: 1px solid #129;
+}
+.immonav a:hover {
+  text-decoration: none;
+  color: #fff;
+  background: #129;
+  border-left: 1px solid #ff8c00;
+}
+.immonav a:active {
+  text-decoration: none;
+  color: #fff;
+  background: #129 url(img/navlinkhover.gif) left no-repeat;
+  border-left: 1px solid #129;
+}

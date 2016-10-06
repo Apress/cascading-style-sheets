@@ -1,0 +1,17 @@
+<div id="nav1">
+     left side navigation </div>
+<div id="nav2">
+     right side navigation </div>
+
+
+#nav1, #nav2 {
+  display: block;
+  width: 127px;
+  text-align: left;
+}
+#nav1 {
+  float: left;
+} 
+#nav2 {
+  float: right;
+}

@@ -1,0 +1,30 @@
+
+#news {
+  float: left;
+  width: 170px;
+}
+
+#headlinesreviews {
+  float: left;
+  width: 177px;
+  border-left: 1px solid #B8D4E3;
+  border-right: 1px solid #B8D4E3;
+  voice-family: "\"}\"";
+  voice-family:inherit;
+  width: 175px;
+} html>body #headlinesreviews { width: 175px; }
+
+#search {
+  float: right;
+  width: 171px;
+  border-bottom: 1px solid #B8D4E3;
+  text-align: center;
+}
+
+#misc {
+  float: right;
+  width: 171px;
+  padding-top: 10px;
+  text-align: center;
+  background: #fff;
+}

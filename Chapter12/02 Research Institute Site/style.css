@@ -1,0 +1,135 @@
+/*
+	This page is an HTML/CSS learning example
+	(C) John P. Simons, 2003
+	http://www.royalbarrel.com
+	
+	Used with permission by APress book publisher,
+	who is granted unlimited right to copy and distribute
+	this document and all associated image files.
+*/
+
+/* GLOBAL HTML OVERRIDES */
+body {
+	margin:0px 0px 20px 34px; 
+	font-family:verdana,arial,sans-serif;
+	font-size:14px;	
+	}
+p { margin-top:0px; margin-bottom:10px; }
+
+/* Main container, contains all page content */
+#container { width:750px; }
+
+/* Head block, contains baby picture and login form */
+#head {
+	height:59px;
+	background:url(head.gif) no-repeat;
+	padding-left:459px;
+	}
+#login { margin-left:22px; padding-top:17px; }
+#login div { 
+	background:url(login.gif) no-repeat;
+	height:21px;
+	}
+#login div span { display:none; }
+#login form { margin:0;  }
+#login input.text { border: 1px solid #ccc; }
+#login input.submit { 
+	font:85% verdana, sans-serif; 
+	color:#666;
+	border:2px solid #888;
+}
+
+/* Main text block */
+#intro {
+	padding:20px 0px 10px 0px;
+	position:relative;
+	}
+#intro img { 
+	position:absolute; 
+	top:0; left:0;
+	}
+#intro h1 {
+	background:url(title.gif) no-repeat;
+	padding-top:82px;
+	margin-left:151px;
+	height:0px;
+	\height:82px;
+	he\ight:0px;
+	overflow:hidden;
+	}
+#intro p { margin-left:151px; }
+
+/* Dynamic tabs with updating content box */
+#tabs { 
+	float:left; 
+	position:relative;
+	width:455px; 
+	margin-bottom:10px;
+	background:url(pixel.gif) repeat-y 149px 0px;
+	}
+#tabs #buttons { 
+	position:absolute; 
+	top:0; left:0; 
+	width:150px;
+	margin:0; padding:0;
+	background-color:#ddd; 
+	color:#888; 
+	border-top:1px solid #999;
+	list-style:none;
+	}
+#tabs #buttons li { 
+	border-bottom:1px solid #999; 
+	border-left:1px solid #999;
+	}
+#tabs #buttons a {
+	text-decoration:none;
+	color:#888; 
+	display:block; 
+	border-right:1px solid #999;
+	padding:5px;
+	}
+#tabs #buttons a:hover { background-color:#eee; }
+#tabs #buttons a.selected { 
+	color:black; 
+	background-color:#FDE9F0; 
+	border-right-width:0px;
+	font-weight:bold;
+	}
+#tabs #buttons a.selected:hover { background-color:#FDE9F0; }
+
+#tabs .infobox {
+	margin-left:150px;
+	padding:6px 12px;
+	border:1px solid #999;
+	border-left-width:0px;
+	background-color:#FDE9F0;
+	display:none;
+}
+#tabs .enabled { display:block; }
+#tabs .infobox ul { margin-left:20px; padding-left:0px; }
+
+/* Interested in supporting us? column */
+#sidebar { padding-left:479px; }
+#sidebar div { 
+	height:27px;
+	background:url(donate.gif) no-repeat;
+	}
+#sidebar div h2 { display:none; }
+
+/* This is the footer */
+#footer {
+	font-size:85%;
+	margin-left:151px;
+	padding-top:4px;
+	color:#999;
+	font-weight:bold;
+	clear:left;	
+	}
+#footer a {
+	text-decoration:none;
+	color:#4496B2;
+	}
+#footer a:hover { color:#999; }
+
+
+	

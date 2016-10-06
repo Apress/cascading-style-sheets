@@ -1,0 +1,415 @@
+/* Start with the basic XHTML elements */
+body {
+  font: small/2em verdana, tahoma, sans-serif;
+  color: #214973;
+  background: #84AEDE url(i/v33body.png) top center repeat-y;
+  margin: 0;
+  padding: 0;
+
+  /* for IE5, see #container */
+  text-align: center;
+}
+p, li, dt, dd {
+  font-size: 84%;
+  line-height: 1.7em;
+}
+ul li {
+  list-style-image: url(i/v33li1.gif);
+}
+
+blockquote {font-style: italic; line-height: 3ex;}
+acronym {border-bottom: none; cursor: help;}
+hr {border: none; border-bottom: dotted 1px #6294D1; color: #C6D8F2; background-color: #C6D8F2; width: 60%; margin-left: auto; margin-right: auto; margin-bottom: 2em; text-align: center;}
+pre {font-size: 93%; margin: 0 10px 2em 15px; background-color: #D7E4F6; padding: 5px; padding-left: 10px; border: solid 1px #A7C1E9;}
+
+h3 {font: 110% 'Lucida Sans Unicode', 'Lucida Grande', verdana, sans-serif; font-weight: normal; letter-spacing: -1px; text-transform: lowercase; color: #48618B; margin: 0; margin-top: 1.7em;}
+h3 a:link, h3 a:visited {font: 110% 'Lucida Sans Unicode', 'Lucida Grande', verdana, sans-serif; font-weight: normal; letter-spacing: -1px; text-transform: lowercase; color: #48618B; text-decoration: none; margin: 0;}
+h3 a:hover {color: #6697D3; text-decoration: underline;}
+h4 {font-weight: normal; font-size: 75%; font-style: italic; color: #5673A7; padding-top: 0; margin-top: 0; margin-left: 10px; line-height: 1em;}
+h5 {font-size: 84%; margin-bottom: 0px;}
+
+a, a:link {
+  font-weight: bold;
+  color: #3B7EBB;
+  text-decoration:
+  underline;
+}
+a:visited {
+  font-weight: normal;
+  color: #405C7F;
+  text-decoration: underline;
+}
+a:hover {
+  color: #6697D3;
+  text-decoration: underline;
+}
+
+/* global classes */
+a.reply:link, a.reply:visited {text-decoration: none; padding: 1px 4px 1px 4px; border: solid 1px #C6D8F2; font-weight: bold;}
+a.reply:hover {color: #fff; background-color: #84B5E3; border-color: #6AA0D3;}
+
+/* Let's set our structural elements next */
+#container {
+  /*These three ensure our 840px wide content area centers in both
+  IE5 and more capable browsers. margins are for Moz/Op/Saf, text
+  align here and in header is for IE 5. */
+  text-align: left;
+  margin-left: auto;
+  margin-right: auto;
+  background: #B5CFF7 url(i/v33bg1.gif) bottom left repeat-x;
+  padding-bottom: 1em;
+  width: 840px;
+}
+
+/* Header misc. */
+#pageHeader, #pageHeader h1 {
+  margin: 0;
+  padding: 0;
+}
+#pageHeader h1 a:link, #pageHeader h1 a:visited {
+  background: #FF4931 url(/i/h-main.jpg) top left no-repeat;
+  width: 840px;
+  height: 95px;
+  margin: 0;
+  display: block;
+}
+#pageHeader h1 span, #pageHeader h2, #pageHeader h3 {display: none;}
+
+/* Various Navigation */
+#siteInfo, #projects {
+  text-align: right;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+#siteInfo {
+  height: 16px;
+  background: #E3E6FA url(i/v33bg2.gif) top left no-repeat;
+  padding-left: 509px;
+}
+#siteInfo li {
+  margin: 0;
+  padding: 0;
+  display: block;
+  float: left;
+}
+#siteInfo li a span, #projects li a span {
+  display: none;
+}
+#siteInfo li a:link, #siteInfo li a:visited {
+  margin-left: 20px;
+}
+#siteInfo li.li1 a:link, #siteInfo li.li1 a:visited {
+  width: 80px;
+  height: 16px;
+  background: #5F879D url(i/v33nav1-1.gif) top left no-repeat;
+  display: block;
+}
+#siteInfo li.li2 a:link, #siteInfo li.li2 a:visited {
+  width: 94px;
+  height: 16px;
+  background: #5F879D url(i/v33nav1-2.gif) top left no-repeat;
+  display: block;
+}
+#siteInfo li.li3 a:link, #siteInfo li.li3 a:visited {
+  width: 25px;
+  height: 16px;
+  background: #5F879D url(i/v33nav1-4.gif) top left no-repeat;
+  display: block;
+}
+#siteInfo li.li4 a:link, #siteInfo li.li4 a:visited {
+  width: 50px;
+  height: 16px;
+  background: #5F879D url(i/v33nav1-3.gif) top left no-repeat;
+  display: block;
+}
+#siteInfo a:link {
+  background-color: #5F879D;
+}
+#siteInfo li a:visited {
+  background-color: #476F85;
+}
+#siteInfo li a:hover {
+  background-color: #A3C5D8;
+}
+
+/* projects links */
+#projects {
+  height: 40px;
+  background: #BBD3F8 url(i/v33bg3.gif) top left no-repeat;
+  padding-left: 391px;
+}
+#projects li {
+  display: inline;
+  margin: 0;
+  padding: 0;
+}
+#projects li a:link, #projects li a:visited {
+  width: 125px;
+  height: 40px;
+  display: block;
+  float: left;
+}
+#projects li.li1 {
+  display: block;
+  float: left;
+  background: transparent url(i/v33nav2-1.gif) top left no-repeat;
+  width: 197px;
+  position: relative;
+  left: 42px;
+}
+#projects li.li1 a:link, #projects li.li1 a:visited {
+  float: right;
+  background: transparent url(i/v33nav2-2.gif) top left no-repeat;
+}
+#projects li.li1 a:hover {
+  background: transparent url(i/v33nav2-2a.gif) top left no-repeat;
+}
+
+#projects li.li2 {
+  background: transparent url(i/v33nav2-3a.gif) top left no-repeat;
+}
+#projects li.li2 a:link, #projects li.li2 a:visited {
+  background: transparent url(i/v33nav2-3.gif) top left no-repeat;
+  position: relative;
+  left: 22px;
+}
+#projects li.li2 a:hover {
+  background: transparent url(i/v33nav2-3a.gif) top left no-repeat;
+}
+
+#projects li.li3 {
+  background: transparent url(i/v33nav2-4a.gif) top left no-repeat;
+}
+#projects li.li3 a:link, #projects li.li3 a:visited {
+  background: transparent url(i/v33nav2-4.gif) top left no-repeat;
+}
+#projects li.li3 a:hover {
+  background: transparent url(i/v33nav2-4a.gif) top left no-repeat;
+}
+
+#skipNav {
+  display: none;
+}
+
+#contentBlock {
+  background: transparent url(i/v33bg4.gif) top left no-repeat;
+}
+  
+/* Body area, ie. Where the Good Stuff goes */
+#mainContent {
+  padding: 0 20px 20px 20px;
+  margin: 0 20px 1em 16px;
+  border: solid 1px #A5BAF7;
+  border-top-color: #B5CAF7;
+  border-left-color: #B5CAF7;
+  background-color: #C6DBF7;
+  float: left;
+  min-height: 85em;
+  width: 524px;
+  voice-family: "\"}\""; 
+  voice-family:inherit;
+  width: 484px;
+}
+#mainContent p {
+  margin: 0 10px 2em 10px;
+}
+#mainContent h5, #mainContent h6 {
+  margin-left: 10px;
+}
+
+/* right hand side, ie. Where the Rest goes */
+#rhs {
+  margin-left: 583px;
+  font: 87%/1.1em 'Lucida Sans Unicode', 'Lucida Grande', verdana, sans-serif;
+}
+#rhs h5, #rhs h6 {
+  margin: 0;
+}
+#rhs h5 {font: 87% 'Lucida Sans Unicode', 'Lucida Grande', verdana, sans-serif; font-weight: normal; color: #E5ECF8; background-color: #7DA4D4; margin: 0; margin-top: 8px; padding-left: 4px; width: 116px;}
+#rhs h6 {font-size: 87%; text-transform: lowercase; font-weight: normal;}
+
+#rhs a:link {color: #4F7CB3; font-weight: normal; text-decoration: none;}
+#rhs a:visited {color: #7DA4D4; text-decoration: none;}
+#rhs a:hover, #rhs a:active {text-decoration: underline; color: #1F6ECE;}
+#rhs ul li {
+  list-style-image: none;
+}
+#rhs li a:link, #rhs li a:visited {
+  display: block;
+  margin: 0px;
+  padding: 1px;
+}
+#rhs li a:hover {
+  color: #E5ECF8;
+  background-color: #7DA4D4;
+  text-decoration: none;
+}
+
+#rhs ul, #rhs dl {
+  width: 120px;
+}
+#rhs li {
+  margin: 0;
+}
+
+ul#tools, ul#pjPhotos, ul#alsoLinks, #theDailies ul, ul#webDesign, ul#mustHaves {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+ul#tools li, ul#pjPhotos li {
+  display: inline;
+}
+
+/* background image replacement for headers */
+#photoJournal h4, #alsoAvailable h4, #linkUps h4 {
+  height: 17px;
+  margin: 0;
+}
+#photoJournal h4 {background: transparent url(i/v33h-photo.gif) top left no-repeat;}
+#alsoAvailable h4 {background: transparent url(i/v33h-also.gif) top left no-repeat;}
+#linkUps h4 {background: transparent url(i/v33h-link.gif) top left no-repeat;}
+#photoJournal h4 span, #alsoAvailable h4 span, #linkUps h4 span {display: none;}
+
+#rhs ul#tools {height: 57px; width: 252px; padding-top: 12px;}
+#tools li a:link, #tools li a:visited {width: 80px; height: 47px; padding: 0; background-position: top center; background-repeat: no-repeat; margin: 0; float: left;}
+#tools li a:hover {background-color: transparent;}
+#tools .li1 a:link, #tools .li1 a:visited {
+  background-image: url(i/ico_lite1.gif);
+}
+#tools .li1, #tools .li1 a:hover {
+  background-image: url(i/ico_lite2.gif);
+}
+#tools .li2 a:link, #tools .li2 a:visited {
+  background-image: url(i/ico_xml1.gif);
+}
+#tools .li2, #tools .li2 a:hover {
+  background-image: url(i/ico_xml2.gif);
+}
+#tools .li3 a:link, #tools .li3 a:visited {
+  background-image: url(i/ico_archives1.gif);
+}
+#tools .li3, #tools .li3 a:hover {
+  background-image: url(i/ico_archives2.gif);
+}
+
+#tools .li1 span, #tools .li2 span, #tools .li3 span {display: none;}
+
+#photoJournal {
+  height: 120px;
+}
+#photoJournal img {
+  border: 0;
+}
+#pjPhotos {
+  position: absolute;
+  width: 257px;
+  top: 242px;
+}
+#pjPhotos li a:hover {
+  background-color: transparent;
+}
+#pjPhotos .li1 a:link, #pjPhotos .li1 a:visited {
+  padding: 4px 4px 8px 4px;
+  background-color: #C7D8F5;
+  border: solid 1px #ADC5F0;
+  width: 96px;
+  height: 73px;
+}
+#pjPhotos .li1 a:hover {
+  background-color: #fff;
+}
+#pjPhotos .li2 {
+  position: absolute;
+  top: 3px;
+  left: 111px;
+}
+#pjPhotos .li3 {
+  position: absolute;
+  top: 3px;
+  left: 183px;
+}
+
+#pjPhotos .li4 {
+  position: absolute;
+  top: 45px;
+  left: 111px;
+}
+#pjPhotos .li5 {
+  position: absolute;
+  top: 45px;
+  left: 183px;
+}
+
+#alsoAvailable {
+  padding: 5px 0 15px 0;
+}
+
+/* hacking away for IE's benefit. Otherwise float: left would have been great */
+#alsoLinks li {width: 127px; line-height: 1.4em; margin-bottom: -0.6em;}
+#alsoLinks li.li2, #alsoLinks li.li4, #alsoLinks .li6, #alsoLinks .li8 {position: relative; left: 130px; top: -1em;}
+
+
+#linkUps {
+  padding-top: 10px;
+}
+#linkUps li {
+  line-height: 3px;
+}
+#linkUps li a:link, #linkUps li a:visited {
+  line-height: 1em;
+}
+
+#firstGroup {
+  width: 120px;
+  float: right;
+}
+#secondGroup {
+  width: 120px;
+}
+
+#theDailies, #recentComments {
+  margin-right: 7px;
+}
+#theDailies li {
+  padding-left: 5px;
+  margin-bottom: 3px;
+}
+
+#recentComments dl {
+  margin: 0;
+}
+#recentComments dt {
+  line-height: 1.3em;
+}
+#recentComments dd {
+  padding: 0;
+  margin: 0.5em 0 1em 0;
+  font-style: italic;
+  line-height: 1.3em;
+}
+#recentComments dd a:link, #recentComments dd a:visited {
+  font-weight: bold;
+}
+
+/* Footer */
+#footerBlock {
+  clear: both;
+  background: transparent url(i/v33bg6.gif) center right no-repeat;
+}
+#footer {
+  padding: 10px 20px 10px 20px;
+  margin: 0 282px 0 32px;
+  width: 484px;
+  border: solid 1px #A5BAF7;
+  background-color: #C6DBF7;
+}
+/* IE's does odd things to #mainContent's l-margin + float. hack away */
+#footerBlock > #footer {
+  margin: 0 298px 0 16px;
+  width: 484px;
+}
+#footerBlock p {
+  margin: 0;
+}

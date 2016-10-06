@@ -1,0 +1,73 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http: //www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http: //www.w3.org/1999/xhtml"xml: lang="en"lang="en">
+<head>
+<title>n4 bg 1</title>
+<style type="text/css">
+body,p {
+  font-family: verdana, arial, helvetica, sans-serif;
+  color: #000;
+}
+body {
+  margin: 0px;
+  padding: 0px;
+  background-color: #fff;
+}
+p {
+  font-size: 0.7em;
+  line-height: 1.4em;
+}
+#MainText {
+  padding: 10px;
+  margin: 5px;
+  background-color: #ccc;
+}
+</style>
+</head>
+<body>
+<div id="MainText">
+<p>Lorem ipsum dolor sit amet,consectetuer adipiscing elit,sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.</p>
+</div>
+</body>
+</html>
+
+
+
+
+#MainText {
+  padding: 10px;
+  margin: 5px;
+  background-color: #ccc;
+  border: 1px solid #ccc;
+}
+
+
+
+
+#MainText {
+  padding: 10px;
+  margin: 5px;
+  background-color: #ccc;
+  border: 1px solid #fff;
+}
+
+
+
+
+body, p {
+  font-family: verdana, arial, helvetica, sans-serif;
+  color: #000;
+}
+body {
+  margin: 0px;
+  padding: 0px;
+  background-color: #ccc;
+}
+p {
+  font-size: 0.7em;
+  line-height: 1.4em;
+}
+#MainText {
+  padding: 10px;
+  margin: 5px;
+  background-color: #fff;
+}

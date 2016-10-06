@@ -1,0 +1,24 @@
+body {
+  padding: 0;
+  margin: 0;
+  border: 0;
+  background: #B2D1E0 url(/images/bg.gif) top left;
+  text-align: center;
+}
+
+#header, #container {
+            position: relative;
+            margin: 0 auto 0 auto;
+            width: 772px;
+            }
+
+
+
+<html>
+<body>
+<div id="header">
+     header </div>
+<div id="container">
+     the rest </div>
+</body>
+</html>

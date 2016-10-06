@@ -1,0 +1,32 @@
+#box {
+  border: 1px solid #000;
+  padding: 49px;
+  background: #fff;
+  width: 300px;
+}
+#box {
+  border: 1px solid #000;
+  padding: 49px;
+  background: #fff;
+  width: 400px; /*ie5win fix begins */
+  voice-family: "\"}\"";
+  voice-family: inherit;
+  width: 300px;
+}
+html>body #box {
+  width: 300px; /*ie5win fix ends */
+}
+
+
+
+
+#box {
+  margin: 49px;
+  background: #fff;
+  width: 300px;
+}
+#box_wrapper {
+  border: 1px solid #000;
+  padding: 0;
+  background: #fff;
+}

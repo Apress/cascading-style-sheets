@@ -1,0 +1,81 @@
+/* css for select and sequence fields */
+.sorthead {
+  text-align: left;
+  font-size: 0.82em;
+  background: none;
+  color: #000;
+  margin: 5px 10px 5px 20px;
+  padding: 20px 0 0 0;
+/* css for real estate preview-box */
+.fright {
+  float: right;
+}
+.container { 					
+  width: 37em;
+  margin: 20px 0 5px 20px;
+  color: #000;
+  background: #fff;
+  border-left: 1px solid #ff8c00;
+}
+.header {											
+  font-size: 0.82em;
+  font-weight: bold;
+  padding: 2px 5px;
+  color: #000;
+  background: #f2f4f4;
+  text-align: left;
+  border-top: 1px solid #ff8c00;
+  border-right: 1px solid #ff8c00;
+}
+.main {
+  position: relative;
+  width: 100%;
+  margin: 5px 0 0 0;
+  color: #000;
+  background: none;
+  text-align: left;
+}
+.content {					
+  margin: 0 0 0 11em;
+}
+.image {						
+  float: right;
+  padding: 7px 1px 5px 5px;
+}
+.text {
+  margin: 0;
+  padding: 0;
+}
+.text p {
+  font-size: 0.82em;
+  line-height: 140%; 
+  padding: 5px;
+  margin: 0;
+  color: #000;
+  background: none;
+}
+.left {						
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 10.5em;
+  border-right: 1px dashed #000;
+  padding: 0;
+  margin: 5px 0 0 0;
+}
+.left td {
+  font-size: 0.78em;
+  padding: 2px 5px;
+}
+.bottom {											
+  clear: both;
+  font-weight: bold;
+  color: #000;
+  background: #F2F4F4;
+  font-size: 0.82em;
+  border-right: 1px solid #ff8c00;
+  border-bottom: 1px solid #ff8c00;
+  text-align: left;
+  padding: 2px 5px;
+  margin-bottom: 0;  
+}

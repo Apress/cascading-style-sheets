@@ -1,0 +1,1288 @@
+#text h1 {
+  padding-top: 500px;
+}
+#citymap {
+  position: absolute;
+  top: 320px;
+  left: 12.5em;
+  display: block;
+  width: 500px;
+  height: 355px;
+  background: transparent url(img/stadtplan/stadtplan.gif);
+}
+#city {
+  position: absolute;
+  top: 0;
+  left: 250px;
+  font: bold 3.2em Arial, Helvetica, sans-serif;
+  color: #FF8c00;
+  background: transparent;
+}
+#area {
+  position: absolute;
+  top: 100px;
+  left: 0;
+  font: bold 1em Arial, Helvetica, sans-serif;
+  color: #129;
+  background: transparent;
+}
+#stadtplan a, #stadtplan a:link, #stadtplan a:visited, #stadtplan a:hover, #stadtplan a:active {
+  display: block;
+  text-decoration: none;
+  font: 0.78em Arial, Helvetica, sans-serif;
+  color: #ff8c00;
+  background: transparent;
+  padding: 0;
+  cursor: pointer;
+  cursor: hand;
+}
+
+#blumenthal {
+  position: absolute;
+  top: 38px;
+  left: 40px;
+}
+#blumenthal a {
+  width: 60px;
+  height: 20px;
+}
+#blumenthal a:hover {
+  width:65px;
+  height:20px;
+}
+#blumenthal a:hover .districtname {
+  display: none;
+}
+#blumenthal a .showblum1 {
+  display:none;
+}
+#blumenthal a:hover .showblum1 {
+  position: absolute;
+  top: -38px;
+  left: -29px;
+  display: block;
+  width: 109px;
+  height: 91px;
+}
+#blumenthal a .showblum2 {
+  display: none;
+}
+#blumenthal a:hover .showblum2 {
+  position: absolute;
+  display: block;
+  width: 250px;
+  top: 82px;
+  left: -40px;
+  font: bold 1.2em Arial, Helvetica, sans-serif;
+  color: #ff8c00;
+  background: transparent;
+}
+#blumenthal a .showblum3 {
+  display:none;
+}
+#blumenthal a:hover .showblum3 {
+  position: absolute;
+  top: 17px;
+  left: 212px;
+  display: block;
+  font: bold 1.8em Arial, Helvetica, sans-serif;
+  color: #129;
+  background: transparent;
+}
+
+#vegesack {
+  position: absolute;
+  top: 75px;
+  left: 115px;
+}
+#vegesack a, #vegesack a:link, #vegesack a:visited {
+  width: 50px;
+  height: 20px;
+}
+#vegesack a:hover {
+  width:30px;
+  height:20px;
+}
+#vegesack a:hover .district {
+ display: none;
+}
+#vegesack a .showvege1 {
+  display:none;
+}
+#vegesack a:hover .showvege1 {
+  position: absolute;
+  top: -28px;
+  left: -11px;
+  display: block;
+  z-index: 100;
+  width: 75px;
+  height: 67px;
+}
+#vegesack a .showvege2 {
+  display:none;
+}
+#vegesack a:hover .showvege2 {
+  position: absolute;
+  display: block;
+  top: 45px;
+  left: -115px;
+  font: bold 1.2em Arial, Helvetica, sans-serif;
+  color: #ff8c00;
+  background: transparent;
+}
+#vegesack a .showvege3 {
+  display:none;
+}
+#vegesack a:hover .showvege3 {
+  position: absolute;
+  top: -20px;
+  left: 138px;
+  display: block;
+  font: bold 1.8em Arial, Helvetica, sans-serif;
+  color: #129;
+  background: transparent;
+}
+
+#burglesum {
+  position: absolute;
+  top: 100px;
+  left: 175px;
+}
+#burglesum a, #burglesum a:link, #burglesum a:visited {
+  width: 50px;
+  height: 20px;
+}
+#burglesum a:hover {
+  width:30px;
+  height:30px;
+}
+#burglesum a:hover .district {
+  display: none;
+}
+#burglesum a .showburg1 {
+  display:none;
+}
+#burglesum a:hover .showburg1 {
+  position: absolute;
+  top: -30px;
+  left: -36px;
+  display: block;
+  width: 117px;
+  height: 97px;
+}
+#burglesum a .showburg2 {
+  display:none;
+}
+#burglesum a:hover .showburg2 {
+  position: absolute;
+  display: block;
+  top: 20px;
+  left: -175px;
+  font: bold 1.2em Arial, Helvetica, sans-serif;
+  color: #ff8c00;
+  background: transparent;
+}
+#burglesum a .showburg3 {
+  display:none;
+}
+#burglesum a:hover .showburg3 {
+  position: absolute;
+  top: -45px;
+  left: 78px;
+  display: block;
+  font: bold 1.8em Arial, Helvetica, sans-serif;
+  color: #129;
+  background: transparent;
+}
+
+#hafen {
+  position: absolute;
+  top: 145px;
+  left: 180px;
+}
+#hafen a, #hafen a:link, #hafen a:visited {
+  width: 35px;
+  height: 15px;
+}
+#hafen a:hover {
+  width:30px;
+  height:30px;
+}
+#hafen a:hover .district {
+  display: none;
+}
+#hafen a .showhafen1 {
+  display:none;
+}
+#hafen a:hover .showhafen1 {
+  position: absolute;
+  top: -21px;
+  left: -13px;
+  display: block;
+  width: 141px;
+  height: 128px;
+}
+#hafen a .showhafen2 {
+  display:none;
+}
+#hafen a:hover .showhafen2 {
+  position: absolute;
+  display: block;
+  top: -25px;
+  left: -180px;
+  font: bold 1.2em Arial, Helvetica, sans-serif;
+  color: #ff8c00;
+  background: transparent;
+}
+#hafen a .showhafen3 {
+  display:none;
+}
+#hafen a:hover .showhafen3 {
+  position: absolute;
+  top: -90px;
+  left: 72px;
+  display: block;
+  font: bold 1.8em Arial, Helvetica, sans-serif;
+  color: #129;
+  background: transparent;
+}
+
+#strom {
+  position: absolute;
+  top: 220px;
+  left: 190px;
+}
+#strom a, #strom a:link, #strom a:visited {
+  width: 30px;
+  height: 15px;
+}
+#strom a:hover {
+  width:28px;
+  height:15px;
+}
+#strom a:hover .district {
+  display: none;
+}
+#strom a .showstrom1 {
+  display:none;
+}
+#strom a:hover .showstrom1 {
+  position: absolute;
+  top: -16px;
+  left: -11px;
+  display: block;
+  z-index: 100;
+  width: 90px;
+  height: 55px;
+}
+#strom a .showstrom2 {
+  display:none;
+}
+#strom a:hover .showstrom2 {
+  position: absolute;
+  display: block;
+  top: -100px;
+  left: -190px;
+  font: bold 1.2em Arial, Helvetica, sans-serif;
+  color: #ff8c00;
+  background: transparent;
+}
+#strom a .showstrom3 {
+  display:none;
+}
+#strom a:hover .showstrom3 {
+  position: absolute;
+  top: -165px;
+  left: 62px;
+  display: block;
+  font: bold 1.8em Arial, Helvetica, sans-serif;
+  color: #129;
+  background: transparent;
+}
+
+#see {
+  position: absolute;
+  top: 185px;
+  left: 180px;
+}
+#see a, #see a:link, #see a:visited {
+  width: 30px;
+  height: 15px;
+}
+#see a:hover {
+  color:#129;
+  background: transparent;
+  width:20px;
+  height:30px;
+}
+#see a:hover .district {
+  display: none;
+}
+#see a .showsee1 {
+  display:none;
+}
+#see a:hover .showsee1 {
+  position: absolute;
+  top: -20px;
+  left: -16px;
+  display: block;
+  z-index: 100;
+  width: 77px;
+  height: 58px;
+}
+#see a .showsee2 {
+  display:none;
+}
+#see a:hover .showsee2 {
+  position: absolute;
+  display: block;
+  top: -65px;
+  left: -180px;
+  font: bold 1.2em Arial, Helvetica, sans-serif;
+  color: #ff8c00;
+  background: transparent;
+}
+#see a .showsee3 {
+  display:none;
+}
+#see a:hover .showsee3 {
+  position: absolute;
+  top: -130px;
+  left: 72px;
+  display: block;
+  font: bold 1.8em Arial, Helvetica, sans-serif;
+  color: #129;
+  background: transparent;
+}
+
+#wolt {
+  position: absolute;
+  top: 230px;
+  left: 250px;
+}
+#wolt a, #wolt a:link, #wolt a:visited {
+  width: 50px;
+  height: 15px;
+}
+
+#wolt a:hover {
+  color:#129;
+  background: transparent;
+  width:30px;
+  height:30px;
+}
+#wolt a:hover .district {
+  display: none;
+}
+#wolt a .showwolt1 {
+  display:none;
+}
+#wolt a:hover .showwolt1 {
+  position: absolute;
+  top: -40px;
+  left: 0;
+  display: block;
+  width: 49px;
+  height: 75px;
+}
+#wolt a .showwolt2 {
+  display:none;
+}
+#wolt a:hover .showwolt2 {
+  position: absolute;
+  display: block;
+  top: -110px;
+  left: -250px;
+  font: bold 1.2em Arial, Helvetica, sans-serif;
+  color: #ff8c00;
+  background: transparent;
+}
+#wolt a .showwolt3 {
+  display:none;
+}
+#wolt a:hover .showwolt3 {
+  position: absolute;
+  top: -175px;
+  left: 2px;
+  display: block;
+  font: bold 1.8em Arial, Helvetica, sans-serif;
+  color: #129;
+  background: transparent;
+}
+
+#huch {
+  position: absolute;
+  top: 270px;
+  left: 227px;
+}
+#huch a, #huch a:link, #huch a:visited {
+  width: 50px;
+  height: 15px;
+}
+#huch a:hover {
+  color:#129;
+  background: transparent;
+  width:35px;
+  height:30px;
+}
+#huch a:hover .district {
+  display: none;
+}
+#huch a .showhuch1 {
+  display:none;
+}
+#huch a:hover .showhuch1 {
+  position: absolute;
+  top: -21px;
+  left: -7px;
+  display: block;
+  width: 64px;
+  height: 69px;
+}
+#huch a .showhuch2 {
+  display:none;
+}
+#huch a:hover .showhuch2 {
+  position: absolute;
+  display: block;
+  top: -150px;
+  left: -227px;
+  font: bold 1.2em Arial, Helvetica, sans-serif;
+  color: #ff8c00;
+  background: transparent;
+}
+#huch a .showhuch3 {
+  display:none;
+}
+#huch a:hover .showhuch3 {
+  position: absolute;
+  top: -215px;
+  left: 25px;
+  display: block;
+  font: bold 1.8em Arial, Helvetica, sans-serif;
+  color: #129;
+  background: transparent;
+}
+
+#neust {
+  position: absolute;
+  top: 270px;
+  left: 285px;
+}
+#neust a, #neust a:link, #neust a:visited {
+  width: 50px;
+  height: 15px;
+}
+#neust a:hover {
+  color:#129;
+  background: transparent;
+  width:40px;
+  height:30px;
+}
+#neust a:hover .district {
+  display: none;
+}
+#neust a .showneust1 {
+  display:none;
+}
+#neust a:hover .showneust1 {
+  position: absolute;
+  top: -28px;
+  left: -10px;
+  display: block;
+  width: 76px;
+   height: 81px;
+}
+#neust a .showneust2 {
+  display:none;
+}
+#neust a:hover .showneust2 {
+  position: absolute;
+  display: block;
+  top: -150px;
+  left: -285px;
+  font: bold 1.2em Arial, Helvetica, sans-serif;
+  color: #ff8c00;
+  background: transparent;
+}
+#neust a .showneust3 {
+  display:none;
+}
+#neust a:hover .showneust3 {
+  position: absolute;
+  top: -215px;
+  left: -33px;
+  display: block;
+  font: bold 1.8em Arial, Helvetica, sans-serif;
+  color: #129;
+  background: transparent;
+}
+
+#oberv {
+  position: absolute;
+  top: 305px;
+  left: 312px;
+}
+#oberv a, #oberv a:link, #oberv a:visited {
+  width: 50px;
+  height: 15px;
+}
+#oberv a:hover {
+  color:#129;
+  background: transparent;
+  width:40px;
+  height:30px;
+}
+#oberv a:hover .district {
+  display: none;
+}
+#oberv a .showoberv1 {
+  display:none;
+}
+#oberv a:hover .showoberv1 {
+  position: absolute;
+  top: -39px;
+  left: 5px;
+  display: block;
+  width: 68px;
+  height: 79px;
+}
+#oberv a .showoberv2 {
+  display:none;
+}
+#oberv a:hover .showoberv2 {
+  position: absolute;
+  display: block;
+  top: -185px;
+  left: -312px;
+  font: bold 1.2em Arial, Helvetica, sans-serif;
+  color: #ff8c00;
+  background: transparent;
+}
+#oberv a .showoberv3 {
+  display:none;
+}
+#oberv a:hover .showoberv3 {
+  position: absolute;
+  top: -250px;
+  left: -60px;
+  display: block;
+  font: bold 1.8em Arial, Helvetica, sans-serif;
+  color: #129;
+  background: transparent;
+}
+
+#heme {
+  position: absolute;
+  top: 305px;
+  left: 382px;
+}
+#heme a, #heme a:link, #heme a:visited {
+  width: 50px;
+  height: 15px;
+}
+#heme a:hover {
+  color:#129;
+  background: transparent;
+  width:40px;
+  height:30px;
+}
+#heme a:hover .district {
+  display: none;
+}
+#heme a .showheme1 {
+  display:none;
+}
+#heme a:hover .showheme1 {
+  position: absolute;
+  top: -59px;
+  left: -24px;
+  display: block;
+  width: 129px;
+  height: 107px;
+}
+#heme a .showheme2 {
+  display:none;
+}
+#heme a:hover .showheme2 {
+  position: absolute;
+  display: block;
+  top: -185px;
+  left: -382px;
+  font: bold 1.2em Arial, Helvetica, sans-serif;
+  color: #ff8c00;
+  background: transparent;
+}
+#heme a .showheme3 {
+  display:none;
+}
+#heme a:hover .showheme3 {
+  position: absolute;
+  top: -250px;
+  left: -130px;
+  display: block;
+  font: bold 1.8em Arial, Helvetica, sans-serif;
+  color: #129;
+  background: transparent;
+}
+
+#block {
+  position: absolute;
+  top: 130px;
+  left: 280px;
+}
+#block a, #block a:link, #block a:visited {
+  width: 80px;
+  height: 20px;
+}
+#block a:hover {
+  width:30px;
+  height:20px;
+}
+#block a:hover .district {
+  display: none;
+}
+#block a .showblock1 {
+  display:none;
+}
+#block a:hover .showblock1 {
+  position: absolute;
+  top: -38px;
+  left: -44px;
+  display: block;
+  width: 139px;
+  height: 94px;
+}
+#block a .showblock2 {
+  display:none;
+}
+#block a:hover .showblock2 {
+  position: absolute;
+  display: block;
+  width: 250px;
+  top: -10px;
+  left: -280px;
+  font: bold 1.2em Arial, Helvetica, sans-serif;
+  color: #ff8c00;
+  background: transparent;
+}
+#block a .showblock3 {
+  display:none;
+}
+#block a:hover .showblock3 {
+  position: absolute;
+  top: -75px;
+  left: -28px;
+  display: block;
+  font: bold 1.8em Arial, Helvetica, sans-serif;
+  color: #129;
+  background: transparent;
+}
+
+#oster {
+  position: absolute;
+  top: 260px;
+  left: 424px;
+}
+#oster a, #oster a:link, #oster a:visited {
+  width: 40px;
+  height: 30px;
+}
+#oster a:hover {
+  color:#129;
+  background: transparent;
+  width:30px;
+  height:30px;
+}
+#oster a:hover .district {
+  display: none;
+}
+#oster a .showoster1 {
+  display:none;
+}
+#oster a:hover .showoster1 {
+  position: absolute;
+  top: -25px;
+  left: -13px;
+  display: block;
+  z-index: 100;
+  width: 68px;
+  height: 73px;
+}
+#oster a .showoster2 {
+  display:none;
+}
+#oster a:hover .showoster2 {
+  position: absolute;
+  display: block;
+  top: -140px;
+  left: -424px;
+  font: bold 1.2em Arial, Helvetica, sans-serif;
+  color: #ff8c00;
+  background: transparent;
+}
+#oster a .showoster3 {
+ display:none;
+}
+#oster a:hover .showoster3 {
+  position: absolute;
+  top: -205px;
+  left: -172px;
+  display: block;
+  font: bold 1.8em Arial, Helvetica, sans-serif;
+  color: #129;
+  background: transparent;
+}
+
+#obern {
+  position: absolute;
+  top: 209px;
+  left: 412px;
+}
+#obern a, #obern a:link, #obern a:visited {
+  width: 80px;
+  height: 15px;
+}
+#obern a:hover {
+  color:#129;
+  background: transparent;
+  width:30px;
+  height:15px;
+}
+#obern a:hover .district {
+display: none;
+}
+#obern a .showobern1 {
+  display:none;
+}
+#obern a:hover .showobern1 {
+  position: absolute;
+  top: -37px;
+  left: -9px;
+  display: block;
+  z-index: 100;
+  width: 94px;
+  height: 80px;
+}
+#obern a .showobern2 {
+  display:none;
+}
+#obern a:hover .showobern2 {
+  position: absolute;
+  display: block;
+  top: -89px;
+  left: -412px;
+  font: bold 1.2em Arial, Helvetica, sans-serif;
+  color: #ff8c00;
+  background: transparent;
+}
+#obern a .showobern3 {
+  display:none;
+}
+#obern a:hover .showobern3 {
+  position: absolute;
+  top: -154px;
+  left: -160px;
+  display: block;
+  font: bold 1.8em Arial, Helvetica, sans-serif;
+  color: #129;
+  background: transparent;
+}
+
+#borg {
+  position: absolute;
+  top: 158px;
+  left: 412px;
+}
+#borg a, #borg a:link, #borg a:visited {
+  width: 80px;
+  height: 15px;
+}
+#borg a:hover {
+  color:#129;
+  background: transparent;
+  width:30px;
+  height:15px;
+}
+#borg a:hover .district {
+ display: none;
+}
+#borg a .showborg1 {
+  display:none;
+}
+#borg a:hover .showborg1 {
+  position: absolute;
+  top: -33px;
+  left: -38px;
+  display: block;
+  z-index: 100;
+  width: 115px;
+  height: 74px;
+}
+#borg a .showborg2 {
+ display:none;
+}
+#borg a:hover .showborg2 {
+  position: absolute;
+  display: block;
+  top: -38px;
+  left: -412px;
+  font: bold 1.2em Arial, Helvetica, sans-serif;
+  color: #ff8c00;
+  background: transparent;
+}
+#borg a .showborg3 {
+  display:none;
+}
+#borg a:hover .showborg3 {
+  position: absolute;
+  top: -103px;
+  left: -160px;
+  display: block;
+  font: bold 1.8em Arial, Helvetica, sans-serif;
+  color: #129;
+  background: transparent;
+}
+
+#horn {
+  position: absolute;
+  top: 186px;
+  left: 374px;
+}
+#horn a, #horn a:link, #horn a:visited {
+  width: 50px;
+  height: 15px;
+}
+#horn a:hover {
+  color:#129;
+  background: transparent;
+  width:30px;
+  height:30px;
+}
+#horn a:hover .district {
+  display: none;
+}
+#horn a .showhorn1 {
+  display:none;
+}
+#horn a:hover .showhorn1 {
+  position: absolute;
+  top: -27px;
+  left: -46px;
+  display: block;
+  z-index: 100;
+  width: 86px;
+  height: 75px;
+}
+#horn a .showhorn2 {
+  display:none;
+}
+#horn a:hover .showhorn2 {
+  position: absolute;
+  display: block;
+  top: -66px;
+  left: -374px;
+  font: bold 1.2em Arial, Helvetica, sans-serif;
+  color: #ff8c00;
+  background: transparent;
+}
+#horn a .showhorn3 {
+  display:none;
+}
+#horn a:hover .showhorn3 {
+  position: absolute;
+  top: -131px;
+  left: -122px;
+  display: block;
+  font: bold 1.8em Arial, Helvetica, sans-serif;
+  color: #129;
+  background: transparent;
+}
+
+#vahr {
+  position: absolute;
+  top: 237px;
+  left: 380px;
+}
+#vahr a, #vahr a:link, #vahr a:visited {
+  width: 20px;
+  height: 10px;
+}
+#vahr a:hover {
+  color:#129;
+  background: transparent;
+  width:30px;
+  height:10px;
+}
+#vahr a:hover .district {
+ display: none;
+}
+#vahr a .showvahr1 {
+  display:none;
+}
+#vahr a:hover .showvahr1 {
+  position: absolute;
+  top: -10px;
+  left: -18px;
+  display: block;
+  z-index: 100;
+  width: 61px;
+  height: 40px;
+}
+#vahr a .showvahr2 {
+  display:none;
+}
+#vahr a:hover .showvahr2 {
+  position: absolute;
+  display: block;
+  top: -117px;
+  left: -380px;
+  font: bold 1.2em Arial, Helvetica, sans-serif;
+  color: #ff8c00;
+  background: transparent;
+}
+#vahr a .showvahr3 {
+  display:none;
+}
+#vahr a:hover .showvahr3 {
+  position: absolute;
+  top: -182px;
+  left: -128px;
+  display: block;
+  font: bold 1.8em Arial, Helvetica, sans-serif;
+  color: #129;
+  background: transparent;
+}
+
+#schwach {
+  position: absolute;
+  top: 215px;
+  left: 329px;
+}
+#schwach a, #schwach a:link, #schwach a:visited {
+  width: 50px;
+  height: 15px;
+}
+#schwach a:hover {
+  color:#129;
+  background: transparent;
+  width:30px;
+  height:30px;
+}
+#schwach a:hover .district {
+  display: none;
+}
+#schwach a .showschwach1 {
+  display:none;
+}
+#schwach a:hover .showschwach1 {
+  position: absolute;
+  top: -25px;
+  left: -6px;
+  display: block;
+  z-index: 100;
+  width: 65px;
+  height: 61px;
+}
+#schwach a .showschwach2 {
+  display:none;
+}
+#schwach a:hover .showschwach2 {
+  position: absolute;
+  display: block;
+  top: -95px;
+  left: -329px;
+  font: bold 1.2em Arial, Helvetica, sans-serif;
+  color: #ff8c00;
+  background: transparent;
+}
+#schwach a .showschwach3 {
+  display:none;
+}
+#schwach a:hover .showschwach3 {
+  position: absolute;
+  top: -160px;
+  left: -77px;
+  display: block;
+  font: bold 1.8em Arial, Helvetica, sans-serif;
+  color: #129;
+  background: transparent;
+}
+
+#vorst {
+  position: absolute;
+  top: 245px;
+  left: 336px;
+}
+#vorst a, #vorst a:link, #vorst a:visited {
+  width: 20px;
+  height: 15px;
+}
+#vorst a:hover {
+  color:#129;
+  background: transparent;
+  width:10px;
+  height:10px;
+}
+#vorst a:hover .district {
+  display: none;
+}
+#vorst a .showvorst1 {
+  display:none;
+}
+#vorst a:hover .showvorst1 {
+position: absolute;
+  top: -3px;
+  left: -5px;
+  display: block;
+  z-index: 100;
+  width: 37px;
+  height: 37px;
+}
+#vorst a .showvorst2 {
+  display:none;
+}
+#vorst a:hover .showvorst2 {
+  position: absolute;
+  display: block;
+  top: -125px;
+  left: -336px;
+  font: bold 1.2em Arial, Helvetica, sans-serif;
+  color: #ff8c00;
+  background: transparent;
+}
+#vorst a .showvorst3 {
+  display:none;
+}
+#vorst a:hover .showvorst3 {
+  position: absolute;
+  top: -190px;
+  left: -84px;
+  display: block;
+  font: bold 1.8em Arial, Helvetica, sans-serif;
+  color: #129;
+  background: transparent;
+}
+
+#mitte {
+  position: absolute;
+  top: 236px;
+  left: 308px;
+}
+#mitte a, #mitte a:link, #mitte a:visited {
+  width: 20px;
+  height: 15px;
+}
+#mitte a:hover {
+  color:#129;
+  background: transparent;
+  width:10px;
+  height:15px;
+}
+#mitte a:hover .district {
+  display: none;
+}
+#mitte a .showmitte1 {
+  display:none;
+}
+#mitte a:hover .showmitte1 {
+  position: absolute;
+  top: -13px;
+  left: -10px;
+  display: block;
+  z-index: 100;
+  width: 42px;
+  height: 42px;
+}
+#mitte a .showmitte2 {
+  display:none;
+}
+#mitte a:hover .showmitte2 {
+  position: absolute;
+  display: block;
+  top: -116px;
+  left: -308px;
+  font: bold 1.2em Arial, Helvetica, sans-serif;
+  color: #ff8c00;
+  background: transparent;
+}
+#mitte a .showmitte3 {
+  display:none;
+}
+#mitte a:hover .showmitte3 {
+  position: absolute;
+  top: -181px;
+  left: -56px;
+  display: block;
+  font: bold 1.8em Arial, Helvetica, sans-serif;
+  color: #129;
+  background: transparent;
+}
+
+#find {
+  position: absolute;
+  top: 202px;
+  left: 306px;
+}
+#find a, #find a:link, #find a:visited {
+  width: 30px;
+  height: 15px;
+}
+#find a:hover {
+  color:#129;
+  background: transparent;
+  width:20px;
+  height:15px;
+}
+#find a:hover .district {
+ display: none;
+}
+#find a .showfind1 {
+  display:none;
+}
+#find a:hover .showfind1 {
+  position: absolute;
+  top: -22px;
+  left: 0;
+  display: block;
+  z-index: 100;
+  width: 33px;
+  height: 60px;
+}
+#find a .showfind2 {
+  display:none;
+}
+#find a:hover .showfind2 {
+  position: absolute;
+  display: block;
+  top: -82px;
+  left: -306px;
+  font: bold 1.2em Arial, Helvetica, sans-serif;
+  color: #ff8c00;
+  background: transparent;
+}
+#find a .showfind3 {
+  display:none;
+}
+#find a:hover .showfind3 {
+  position: absolute;
+  top: -148px;
+  left: -54px;
+  display: block;
+  font: bold 1.8em Arial, Helvetica, sans-serif;
+  color: #129;
+  background: transparent;
+}
+
+#walle {
+  position: absolute;
+  top: 182px;
+  left: 292px;
+}
+#walle a, #walle a:link, #walle a:visited {
+  width: 30px;
+  height: 15px;
+}
+#walle a:hover {
+  color:#129;
+  background: transparent;
+  width:20px;
+  height:15px;
+}
+#walle a:hover .district {
+  display: none;
+}
+#walle a .showwalle1 {
+  display:none;
+}
+#walle a:hover .showwalle1 {
+  position: absolute;
+  top: -22px;
+  left: -15px;
+  display: block;
+  z-index: 100;
+  width: 53px;
+  height: 75px;
+}
+#walle a .showwalle2 {
+  display:none;
+}
+#walle a:hover .showwalle2 {
+  position: absolute;
+  display: block;
+  top: -62px;
+  left: -292px;
+  font: bold 1.2em Arial, Helvetica, sans-serif;
+  color: #ff8c00;
+  background: transparent;
+}
+#walle a .showwalle3 {
+  display:none;
+}
+#walle a:hover .showwalle3 {
+  position: absolute;
+  top: -127px;
+  left: -40px;
+  display: block;
+  font: bold 1.8em Arial, Helvetica, sans-serif;
+  color: #129;
+  background: transparent;
+}
+
+#groep {
+  position: absolute;
+  top: 152px;
+  left: 240px;
+}
+#groep a, #groep a:link, #groep a:visited {
+  width: 40px;
+  height: 15px;
+}
+#groep a:hover {
+  color:#129;
+  background: transparent;
+  width:30px;
+  height:15px;
+}
+#groep a:hover .district {
+  display: none;
+}
+#groep a .showgroep1 {
+  display:none;
+}
+#groep a:hover .showgroep1 {
+  position: absolute;
+  top: -22px;
+  left: -11px;
+  display: block;
+  z-index: 100;
+  width: 69px;
+  height: 70px;
+}
+#groep a .showgroep2 {
+ display:none;
+}
+#groep a:hover .showgroep2 {
+  position: absolute;
+  display: block;
+  top: -32px;
+  left: -240px;
+  font: bold 1.2em Arial, Helvetica, sans-serif;
+  color: #ff8c00;
+  background: transparent;
+}
+#groep a .showgroep3 {
+  display:none;
+}
+#groep a:hover .showgroep3 {
+  position: absolute;
+  top: -97px;
+  left: 12px;
+  display: block;
+  font: bold 1.8em Arial, Helvetica, sans-serif;
+  color: #129;
+  background: transparent;
+}
+a:hover .districtname {
+  display: none;
+}
